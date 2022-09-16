@@ -32,7 +32,7 @@ function HeroHome() {
               Des barres de rires
             </h1>
             <p className="text-xl text-gray-700 mb-10" data-aos="zoom-out" data-aos-delay="200">
-              Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
+            Faites deviner le prénom, le sexe, le poids, la taille et la date où bébé pointera son nez.
             </p>
             <div
               className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4"

@@ -18,7 +18,7 @@ function HeaderHome() {
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Site branding */}
-          <div className="shrink-0 mr-4">
+          <div className="mr-4 flex justify-start">
             {/* Logo */}
             <Link className="block" to="/" aria-label="Jinial">
               <svg className="w-8 h-8" viewBox="0 0 32 32" xmlnsXlink="http://www.w3.org/1999/xlink">
@@ -41,19 +41,20 @@ function HeaderHome() {
                 </g>
               </svg>
             </Link>
+            <nav className="inline">
+              {/* Desktop nav links */}
+              <ul className="flex justify-start flex-wrap items-center">
+                <li>
+                  <Link className="font-medium text-gray-600 hover:text-gray-600 dark:hover:text-gray-100 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" to="/signin">Pourquoi Jinial ?</Link>
+                </li>
+                <li>
+                  <Link className="font-medium text-gray-600 hover:text-gray-600 dark:hover:text-gray-100 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" to="/signin">Fonctionnalités</Link>
+                </li>
+              </ul>
+            </nav>
           </div>
 
-          <nav className="flex justify-between">
-            {/* Desktop nav links */}
-            <ul className="flex justify-start flex-wrap items-center">
-              <li>
-                <Link className="font-medium text-gray-600 hover:text-gray-600 dark:hover:text-gray-100 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" to="/signin">Pourquoi Jinial ?</Link>
-              </li>
-              <li>
-                <Link className="font-medium text-gray-600 hover:text-gray-600 dark:hover:text-gray-100 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" to="/signin">Fonctionnalités</Link>
-              </li>
-            </ul>
-          </nav>
+
 
           {/* Desktop navigation */}
           <nav className="flex justify-between">
