@@ -16,19 +16,23 @@ function HeroHome() {
             <div data-aos="zoom-out">
               <div className="relative text-sm text-gray-300 bg-gray-800 rounded-full inline-block px-4 py-1 mb-6 before:content-[''] before:absolute before:-z-10 before:inset-0 before:-m-0.5 before:bg-gradient-to-t before:from-gray-800 before:to-gray-800 before:via-gray-600 before:rounded-full">
                 <div className="text-gray-400 dark:text-white">
-                  Launching Infinite Workspaces.{' '}
+                  Nouveau générateur de prénom.{' '}
                   <a className="font-medium text-blue-500 inline-flex items-center transition duration-150 ease-in-out group" href="https://alexfleurquin.com">
-                    Learn More{' '}
+                    En savoir plus{' '}
                     <span className="tracking-normal font-inter group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                   </a>
                 </div>
               </div>
             </div>
-            <h1 className="h1 text-5xl mb-6 text-slate-900 dark:text-white" data-aos="zoom-out" data-aos-delay="100">
-              Where the world builds <em className="font-italic">software</em>
+            <h1 className="h1 font-oxygen text-5xl mb-6 text-slate-900 dark:text-white" data-aos="zoom-out" data-aos-delay="100">
+              Un bébé,
+              <br />
+              Des amis,
+              <br />
+              Des barres de rires
             </h1>
             <p className="text-xl text-gray-700 mb-10" data-aos="zoom-out" data-aos-delay="200">
-              Our landing page template works on all devices, so you only have to set it up once, and get beautiful results forever.
+            Faites deviner le prénom, le sexe, le poids, la taille et la date où bébé pointera son nez.
             </p>
             <div
               className="max-w-xs mx-auto sm:max-w-none sm:flex sm:justify-center md:justify-start space-y-4 sm:space-y-0 sm:space-x-4"
@@ -38,15 +42,15 @@ function HeroHome() {
               <div>
 
                 <a className="btn text-white bg-gray-900 dark:bg-white dark:text-gray-900 w-full shadow-lg group" href="/signin">
-                  Get Started For Free{' '}
+                  Commencer{' '}
                   <span className="tracking-normal font-inter text-blue-200 dark:text-gray-900 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
                     -&gt;
                   </span>
                 </a>
               </div>
               <div>
-                <a className="btn text-gray-300 bg-gradient-to-t from-gray-800 to-gray-700 hover:to-gray-800 w-full shadow-lg" href="#0">
-                  Explore Docs
+                <a className="btn text-gray-300 bg-gray-800 hover:bg-gray-700 w-full shadow-lg" href="#0">
+                  Comment ça marche ?
                 </a>
               </div>
             </div>
