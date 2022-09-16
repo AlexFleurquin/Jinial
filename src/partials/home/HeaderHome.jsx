@@ -43,16 +43,28 @@ function HeaderHome() {
             </Link>
           </div>
 
+          <nav className="flex justify-between">
+            {/* Desktop nav links */}
+            <ul className="flex justify-start flex-wrap items-center">
+              <li>
+                <Link className="font-medium text-gray-600 hover:text-gray-600 dark:hover:text-gray-100 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" to="/signin">Pourquoi Jinial ?</Link>
+              </li>
+              <li>
+                <Link className="font-medium text-gray-600 hover:text-gray-600 dark:hover:text-gray-100 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" to="/signin">Fonctionnalités</Link>
+              </li>
+            </ul>
+          </nav>
+
           {/* Desktop navigation */}
-          <nav className="flex grow">
+          <nav className="flex justify-between">
             {/* Desktop sign in links */}
             <ul className="flex grow justify-end flex-wrap items-center">
               <li>
-                <Link className="font-medium text-gray-600 hover:text-gray-600 dark:hover:text-gray-100 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" to="/signin">Sign in</Link>
+                <Link className="font-medium text-gray-600 hover:text-gray-600 dark:hover:text-gray-100 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" to="/signin">Se connecter</Link>
               </li>
               <li className="ml-3">
                 <Link className="btn text-white bg-gray-900 dark:bg-white dark:text-gray-900 w-full shadow-lg group" to="signup">
-                  Get Started <span className="tracking-normal font-inter text-gray-200 dark:text-gray-900 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
+                  Commencer <span className="tracking-normal font-inter text-gray-200 dark:text-gray-900 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">-&gt;</span>
                 </Link>
               </li>
               <li className="text-gray-600 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out">
