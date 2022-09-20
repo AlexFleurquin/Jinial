@@ -23,10 +23,7 @@ function Dashboard() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
 
   return (
-    <div className="flex h-screen overflow-hidden">
-
-      {/* Sidebar */}
-      <Sidebar sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
+    <div className="flex h-screen overflow-hidden bg-light dark:bg-gray-900">
 
       {/* Content area */}
       <div className="relative flex flex-col flex-1 overflow-y-auto overflow-x-hidden">
@@ -34,7 +31,7 @@ function Dashboard() {
         {/*  Site header */}
         <Header sidebarOpen={sidebarOpen} setSidebarOpen={setSidebarOpen} />
 
-        <main>
+        <main className='mt-8'>
           <div className="px-4 sm:px-6 lg:px-8 py-8 w-full max-w-9xl mx-auto">
 
             {/* Welcome banner */}
@@ -58,7 +55,7 @@ function Dashboard() {
                     <path d="M15 7H9V1c0-.6-.4-1-1-1S7 .4 7 1v6H1c-.6 0-1 .4-1 1s.4 1 1 1h6v6c0 .6.4 1 1 1s1-.4 1-1V9h6c.6 0 1-.4 1-1s-.4-1-1-1z" />
                   </svg>
                   <span className="hidden xs:block ml-2">Add View</span>
-                </button>                
+                </button>
               </div>
 
             </div>
@@ -88,7 +85,7 @@ function Dashboard() {
               <DashboardCard10 />
               {/* Card (Income/Expenses) */}
               <DashboardCard11 />
-              
+
             </div>
 
           </div>
