@@ -2,8 +2,6 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import HeaderHome from '../partials/home/HeaderHome';
 
-import Illustration from '../images/auth-illustration.svg';
-
 function SignIn() {
   return (
     <div className="flex flex-col min-h-screen overflow-hidden bg-light dark:bg-gray-900">
@@ -12,10 +10,6 @@ function SignIn() {
 
       <main className="grow">
         <section className="relative">
-          {/* Illustration */}
-          <div className="hidden md:block absolute left-1/2 -translate-x-1/2 pointer-events-none -z-10" aria-hidden="true">
-            <img src={Illustration} className="max-w-none" width="1440" height="332" alt="Page Illustration" />
-          </div>
           <div className="relative max-w-6xl mx-auto px-4 sm:px-6">
             <div className="pt-32 pb-12 md:pt-40 md:pb-20">
               {/* Page header */}
@@ -46,10 +40,7 @@ function SignIn() {
                   </div>
                   <div className="mt-6">
                     <button className="btn-sm text-sm text-white bg-indigo-500 hover:bg-indigo-600 w-full shadow-sm group">
-                      Sign In{' '}
-                      <span className="tracking-normal text-sky-300 group-hover:translate-x-0.5 transition-transform duration-150 ease-in-out ml-1">
-                        -&gt;
-                      </span>
+                      Sign In
                     </button>
                   </div>
                 </form>
