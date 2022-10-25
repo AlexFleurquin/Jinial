@@ -37,7 +37,7 @@ function DropdownEditMenu({
     <div {...rest}>
       <button
         ref={trigger}
-        className={`bg-white text-slate-400 hover:text-slate-500 rounded-full ${dropdownOpen && 'bg-slate-100 text-slate-500'}`}
+        className={`dark:bg-slate-700 bg-white text-slate-400 hover:text-slate-500 rounded-full ${dropdownOpen && 'bg-slate-100 text-slate-500'}`}
         aria-haspopup="true"
         onClick={() => setDropdownOpen(!dropdownOpen)}
         aria-expanded={dropdownOpen}

@@ -55,10 +55,10 @@ function Header({
             {/* Desktop nav links */}
             <ul className="flex justify-start flex-wrap items-center">
               <li>
-                <Link className="font-medium text-gray-600 hover:text-gray-600 dark:hover:text-gray-100 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" to="/signin">Pourquoi Jinial ?</Link>
+                <Link className="font-oxygen font-normal text-gray-600 hover:text-gray-600 dark:hover:text-gray-100 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" to="/signin">Mon bébé</Link>
               </li>
               <li>
-                <Link className="font-medium text-gray-600 hover:text-gray-600 dark:hover:text-gray-100 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" to="/signin">Fonctionnalités</Link>
+                <Link className="font-oxygen font-normal text-gray-600 hover:text-gray-600 dark:hover:text-gray-100 px-3 lg:px-5 py-2 flex items-center transition duration-150 ease-in-out" to="/signin">Mes pronos</Link>
               </li>
             </ul>
           </nav>
@@ -72,7 +72,7 @@ function Header({
           <ul className="flex grow justify-end flex-wrap items-center">
             <li>
               <button
-                className={`w-8 h-8 flex items-center justify-center bg-slate-100 hover:bg-slate-200 transition duration-150 rounded-full ml-3 ${searchModalOpen && 'bg-slate-200'}`}
+                className={`w-8 h-8 flex items-center justify-center dark:bg-slate-700 dark:hover:bg-slate-600 bg-slate-100 hover:bg-slate-200 transition duration-150 rounded-full ml-3 ${searchModalOpen && 'bg-slate-200'}`}
                 onClick={(e) => { e.stopPropagation(); setSearchModalOpen(true); }}
                 aria-controls="search-modal"
               >
