@@ -13,14 +13,11 @@ import FooterHome from '../partials/home/FooterHome';
 
 function Home() {
   return (
-    <div className="flex flex-col min-h-screen overflow-hidden bg-light dark:bg-gray-900">
-
+    <div className="flex flex-col min-h-screen overflow-hidden bg-light">
       {/*  Site header */}
       <HeaderHome />
-
       {/*  Page content */}
       <main className="grow">
-
         {/*  Page sections */}
         <HeroHome />
         <PressLogosHome />
@@ -30,12 +27,10 @@ function Home() {
         <TestimonialsHome />
         <ResourcesHome />
         <CtaHome />
-
       </main>
 
       {/*  Site footer */}
       <FooterHome />
-
     </div>
   );
 }

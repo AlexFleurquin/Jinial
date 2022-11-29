@@ -4,12 +4,14 @@ import FeaturesImage from '../../images/features.svg';
 
 function FeaturesHome() {
   return (
-    <section>
+    <section className="dark:bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gray-900 to-black">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
         <div className="py-12 md:py-20">
           {/* Section header */}
           <div className="text-center pb-12 md:pb-20">
-            <h2 className="h2 font-uncut-sans" data-aos="zoom-out">Focus on solving bigger problems</h2>
+            <h2 className="h2 font-uncut-sans" data-aos="zoom-out">
+              Focus on solving bigger problems
+            </h2>
           </div>
           <div className="pb-16" data-aos="zoom-out">
             <img src={FeaturesImage} width="1104" height="512" alt="Features" />
@@ -19,11 +21,27 @@ function FeaturesHome() {
             {/* 1st item */}
             <div className="flex flex-col items-center" data-aos="zoom-out">
               <div className="mb-4">
-                <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                <svg
+                  width="56"
+                  height="56"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                >
                   <defs>
-                    <radialGradient cx="50%" cy="89.845%" fx="50%" fy="89.845%" r="89.85%" id="icon1-b">
+                    <radialGradient
+                      cx="50%"
+                      cy="89.845%"
+                      fx="50%"
+                      fy="89.845%"
+                      r="89.85%"
+                      id="icon1-b"
+                    >
                       <stop stopColor="#3B82F6" stopOpacity=".64" offset="0%" />
-                      <stop stopColor="#F472B6" stopOpacity=".876" offset="100%" />
+                      <stop
+                        stopColor="#F472B6"
+                        stopOpacity=".876"
+                        offset="100%"
+                      />
                     </radialGradient>
                     <circle id="icon1-a" cx="28" cy="28" r="28" />
                   </defs>
@@ -36,17 +54,41 @@ function FeaturesHome() {
                   </g>
                 </svg>
               </div>
-              <h4 className="h4 text-gray-200 text-center mb-2">Ready for the future</h4>
-              <p className="text-lg text-gray-400 text-center">A flexible foundation that evolves with complex ecosystem.</p>
+              <h4 className="h4 text-gray-200 text-center mb-2">
+                Ready for the future
+              </h4>
+              <p className="text-lg text-gray-400 text-center">
+                A flexible foundation that evolves with complex ecosystem.
+              </p>
             </div>
             {/* 2nd item */}
-            <div className="flex flex-col items-center" data-aos="zoom-out" data-aos-delay="200">
+            <div
+              className="flex flex-col items-center"
+              data-aos="zoom-out"
+              data-aos-delay="200"
+            >
               <div className="mb-4">
-                <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                <svg
+                  width="56"
+                  height="56"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                >
                   <defs>
-                    <radialGradient cx="50%" cy="89.845%" fx="50%" fy="89.845%" r="89.85%" id="icon2-b">
+                    <radialGradient
+                      cx="50%"
+                      cy="89.845%"
+                      fx="50%"
+                      fy="89.845%"
+                      r="89.85%"
+                      id="icon2-b"
+                    >
                       <stop stopColor="#3B82F6" stopOpacity=".64" offset="0%" />
-                      <stop stopColor="#F472B6" stopOpacity=".876" offset="100%" />
+                      <stop
+                        stopColor="#F472B6"
+                        stopOpacity=".876"
+                        offset="100%"
+                      />
                     </radialGradient>
                     <circle id="icon2-a" cx="28" cy="28" r="28" />
                   </defs>
@@ -59,17 +101,41 @@ function FeaturesHome() {
                   </g>
                 </svg>
               </div>
-              <h4 className="h4 text-gray-200 text-center mb-2">Ready for the future</h4>
-              <p className="text-lg text-gray-400 text-center">A flexible foundation that evolves with complex ecosystem.</p>
+              <h4 className="h4 text-gray-200 text-center mb-2">
+                Ready for the future
+              </h4>
+              <p className="text-lg text-gray-400 text-center">
+                A flexible foundation that evolves with complex ecosystem.
+              </p>
             </div>
             {/* 3rd item */}
-            <div className="flex flex-col items-center" data-aos="zoom-out" data-aos-delay="400">
+            <div
+              className="flex flex-col items-center"
+              data-aos="zoom-out"
+              data-aos-delay="400"
+            >
               <div className="mb-4">
-                <svg width="56" height="56" xmlns="http://www.w3.org/2000/svg" xmlnsXlink="http://www.w3.org/1999/xlink">
+                <svg
+                  width="56"
+                  height="56"
+                  xmlns="http://www.w3.org/2000/svg"
+                  xmlnsXlink="http://www.w3.org/1999/xlink"
+                >
                   <defs>
-                    <radialGradient cx="50%" cy="89.845%" fx="50%" fy="89.845%" r="89.85%" id="icon3-b">
+                    <radialGradient
+                      cx="50%"
+                      cy="89.845%"
+                      fx="50%"
+                      fy="89.845%"
+                      r="89.85%"
+                      id="icon3-b"
+                    >
                       <stop stopColor="#3B82F6" stopOpacity=".64" offset="0%" />
-                      <stop stopColor="#F472B6" stopOpacity=".876" offset="100%" />
+                      <stop
+                        stopColor="#F472B6"
+                        stopOpacity=".876"
+                        offset="100%"
+                      />
                     </radialGradient>
                     <circle id="icon3-a" cx="28" cy="28" r="28" />
                   </defs>
@@ -82,8 +148,12 @@ function FeaturesHome() {
                   </g>
                 </svg>
               </div>
-              <h4 className="h4 text-gray-200 text-center mb-2">Ready for the future</h4>
-              <p className="text-lg text-gray-400 text-center">A flexible foundation that evolves with complex ecosystem.</p>
+              <h4 className="h4 text-gray-200 text-center mb-2">
+                Ready for the future
+              </h4>
+              <p className="text-lg text-gray-400 text-center">
+                A flexible foundation that evolves with complex ecosystem.
+              </p>
             </div>
           </div>
         </div>
