@@ -102,7 +102,7 @@ function PricingHome() {
             </div>
             {/* Pricing table 2 */}
             <div
-              className="relative flex flex-col h-full p-6 bg-slate-800/50 rounded-lg shadow-lg"
+              className="relative flex flex-col h-full p-6 bg-slate-200/10 dark:bg-slate-800/50 rounded-lg shadow-lg"
               data-aos="zoom-out"
               data-aos-delay="100"
             >

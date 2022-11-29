@@ -39,7 +39,7 @@ function HeroHome() {
               </div>
             </div>
             <h1
-              className="h1 font-oxygen text-5xl mb-6 text-slate-900 dark:text-white"
+              className="h1 font-oxygen text-5xl mb-6 text-slate-900 dark:text-slate-300"
               data-aos="zoom-out"
               data-aos-delay="100"
             >

@@ -6,9 +6,9 @@ function FeaturesHome() {
   return (
     <section className="dark:bg-[radial-gradient(ellipse_at_top,_var(--tw-gradient-stops))] from-gray-900 to-black">
       <div className="max-w-6xl mx-auto px-4 sm:px-6">
-        <div className="py-36 md:py-36">
+        <div className="pb-36">
           <div class="relative px-6 lg:px-8">
-            <div class="mx-auto max-w-3xl pt-20 pb-32 sm:pt-48 sm:pb-40">
+            <div class="mx-auto max-w-3xl pt-24">
               <div>
                 <div class="hidden sm:mb-8 sm:flex sm:justify-center">
                   <div class="relative overflow-hidden rounded-full py-1.5 px-4 text-sm leading-6 border border-gray-600/10 hover:border-gray-600/30 dark:hover:bg-slate-900">
@@ -25,34 +25,14 @@ function FeaturesHome() {
                   </div>
                 </div>
                 <div>
-                  <h1 class="text-4xl font-bold tracking-tight sm:text-center sm:text-6xl">
-                    Data to enrich your online business
-                  </h1>
+                  <h2 class="font-oxygen font-bold tracking-tight text-center text-5xl dark:text-slate-300">
+                    Bienvenue sur Jinial
+                  </h2>
                   <p class="mt-6 text-lg leading-8 text-gray-600 sm:text-center">
                     Anim aute id magna aliqua ad ad non deserunt sunt. Qui irure
                     qui lorem cupidatat commodo. Elit sunt amet fugiat veniam
                     occaecat fugiat aliqua.
                   </p>
-                  <div class="mt-8 flex gap-x-4 sm:justify-center">
-                    <a
-                      href="#"
-                      class="inline-block rounded-lg bg-indigo-600 px-4 py-1.5 text-base font-semibold leading-7 text-white shadow-sm ring-1 ring-indigo-600 hover:bg-indigo-700 hover:ring-indigo-700"
-                    >
-                      Get started
-                      <span class="text-indigo-200" aria-hidden="true">
-                        &rarr;
-                      </span>
-                    </a>
-                    <a
-                      href="#"
-                      class="inline-block rounded-lg px-4 py-1.5 text-base font-semibold leading-7 text-gray-900 ring-1 ring-gray-900/10 hover:ring-gray-900/20"
-                    >
-                      Live demo
-                      <span class="text-gray-400" aria-hidden="true">
-                        &rarr;
-                      </span>
-                    </a>
-                  </div>
                 </div>
                 <div class="absolute inset-x-0 top-[calc(100%-13rem)] -z-10 transform-gpu overflow-hidden blur-3xl sm:top-[calc(100%-30rem)]">
                   <svg
@@ -95,36 +75,34 @@ function FeaturesHome() {
               />
             </div>
             <div class="lg:flex-grow md:w-1/2 lg:pl-24 md:pl-16 flex flex-col md:items-start md:text-left items-center text-center">
-              <h1 class="title-font sm:text-4xl text-3xl mb-4 font-medium text-white">
-                Knausgaard typewriter readymade marfa
+              <h1 class="text-3xl mb-4 font-medium dark:text-slate-200">
+                Découvez qui est l'élu
               </h1>
-              <p class="mb-8 leading-relaxed">
+              <p class="mb-8 leading-relaxed dark:text-slate-500">
                 Chillwave portland ugh, knausgaard fam polaroid iPhone. Man
                 braid swag typewriter affogato, hella selvage wolf narwhal
                 dreamcatcher.
               </p>
-              <div class="flex w-full md:justify-start justify-center items-end">
+              <div class="flex w-full md:justify-start justify-center items-end pb-12">
                 <div class="relative mr-4 lg:w-full xl:w-1/2 w-2/4">
                   <label
                     for="hero-field"
                     class="leading-7 text-sm text-gray-400"
                   >
-                    Placeholder
+                    Pour télécharger votre application
                   </label>
                   <input
                     type="text"
                     id="hero-field"
                     name="hero-field"
+                    placeholder="elon.musk@spacex.com"
                     class="w-full bg-gray-800 rounded border bg-opacity-40 border-gray-700 focus:ring-2 focus:ring-indigo-900 focus:bg-transparent focus:border-indigo-500 text-base outline-none text-gray-100 py-1 px-3 leading-8 transition-colors duration-200 ease-in-out"
                   />
                 </div>
-                <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">
-                  Button
+                <button class="btn text-gray-300 bg-gray-800 hover:bg-gray-700 shadow">
+                  Reçevoir le lien
                 </button>
               </div>
-              <p class="text-sm mt-2 text-gray-500 mb-8 w-full">
-                Neutra shabby chic ramps, viral fixie.
-              </p>
               <div class="flex lg:flex-row md:flex-col text-gray-300">
                 <button class="bg-gray-800 inline-flex py-3 px-5 rounded-lg items-center hover:bg-gray-700 hover:text-white focus:outline-none">
                   <svg

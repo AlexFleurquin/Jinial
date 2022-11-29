@@ -88,7 +88,7 @@ const TestimonialData = [
 function TestimonialItems({ id, avatar, name, company, content }) {
   return (
     <article
-      className="h-full flex flex-col p-6 bg-transparent hover:bg-gray-800/40 rounded-lg border dark:border-slate-800 shadow-lg transition duration-300 ease-in-out"
+      className="h-full flex flex-col p-6 bg-transparent hover:bg-gray-400/10 dark:border-slate-800 dark:hover:bg-gray-800/40 hover:shadow-lg rounded-lg border shadow transition duration-300 ease-in-out"
       data-aos="fade"
       data-aos-anchor="[data-aos-id-testimonials]"
     >
