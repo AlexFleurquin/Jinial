@@ -4,7 +4,6 @@ import HeaderHome from '../partials/home/HeaderHome';
 import HeroHome from '../partials/home/HeroHome';
 import PressLogosHome from '../partials/home/PressLogosHome';
 import FeaturesHome from '../partials/home/FeaturesHome';
-import Features02Home from '../partials/home/Features02Home';
 import PricingHome from '../partials/home/PricingHome';
 import TestimonialsHome from '../partials/home/TestimonialsHome';
 import ResourcesHome from '../partials/home/ResourcesHome';
@@ -22,7 +21,6 @@ function Home() {
         <HeroHome />
         <PressLogosHome />
         <FeaturesHome />
-        <Features02Home />
         <PricingHome />
         <TestimonialsHome />
         <ResourcesHome />
