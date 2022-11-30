@@ -25,7 +25,7 @@ function PronoSynthese() {
   };
 
   return (
-    <div className="flex flex-col col-span-full sm:col-span-6 xl:col-span-4 bg-white dark:bg-slate-800/10 shadow-lg rounded-lg border dark:border-slate-800 ">
+    <div className="bg-white dark:bg-slate-800/10 shadow-lg rounded-lg border dark:border-slate-800 ">
       <header className="px-5 py-4">
         <h2 className="font-semibold dark:text-slate-300">Genre</h2>
       </header>
