@@ -1,4 +1,5 @@
 import React from 'react';
+import Tilt from 'react-parallax-tilt';
 
 import TestimonialsImage01 from '../../images/testimonial-01.jpg';
 import TestimonialsImage02 from '../../images/testimonial-02.jpg';
@@ -87,33 +88,35 @@ const TestimonialData = [
 
 function TestimonialItems({ id, avatar, name, company, content }) {
   return (
-    <article
-      className="h-full flex flex-col p-6 bg-transparent hover:bg-gray-400/10 dark:border-slate-800 dark:hover:bg-gray-800/40 hover:shadow-lg rounded-lg border shadow transition duration-300 ease-in-out"
-      data-aos="fade"
-      data-aos-anchor="[data-aos-id-testimonials]"
-    >
-      <header className="mb-4">
-        <img
-          className="rounded-full shrink-0"
-          src={avatar}
-          width="48"
-          height="48"
-          alt="Testimonial 01"
-        />
-      </header>
-      <div className="grow mb-3">
-        <p className="text-gray-400">{content}</p>
-      </div>
-      <footer className="text-sm text-gray-400">
-        <span className="text-gray-300">{name}</span> -{' '}
-        <a
-          className="font-medium text-blue-500 hover:text-blue-400 transition duration-150 ease-in-out"
-          href="#0"
-        >
-          {company}
-        </a>
-      </footer>
-    </article>
+    <Tilt>
+      <article
+        className="h-full flex flex-col p-6 bg-transparent hover:bg-gray-400/10 dark:border-slate-800 dark:hover:bg-gray-800/40 hover:shadow-lg rounded-lg border shadow transition duration-300 ease-in-out"
+        data-aos="fade"
+        data-aos-anchor="[data-aos-id-testimonials]"
+      >
+        <header className="mb-4">
+          <img
+            className="rounded-full shrink-0"
+            src={avatar}
+            width="48"
+            height="48"
+            alt="Testimonial 01"
+          />
+        </header>
+        <div className="grow mb-3">
+          <p className="text-gray-400">{content}</p>
+        </div>
+        <footer className="text-sm text-gray-400">
+          <span className="text-gray-300">{name}</span> -{' '}
+          <a
+            className="font-medium text-blue-500 hover:text-blue-400 transition duration-150 ease-in-out"
+            href="#0"
+          >
+            {company}
+          </a>
+        </footer>
+      </article>
+    </Tilt>
   );
 }
 

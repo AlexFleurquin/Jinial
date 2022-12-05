@@ -1,11 +1,33 @@
-import React, { useState } from 'react';
+import React, { useEffect, useState, useContext } from 'react';
+import { ThemeContext } from './../contexts/ThemeContext';
 
 function DarkMode() {
-  const { theme, setTheme } = useState('light');
+  const [toggleTheme, theme] = useContext(ThemeContext);
+
+  console.log(theme);
+
+  if (
+    localStorage.theme === 'dark' ||
+    (!('theme' in localStorage) &&
+      window.matchMedia('(prefers-color-scheme: dark)').matches)
+  ) {
+    document.documentElement.classList.add('dark');
+  } else {
+    document.documentElement.classList.remove('dark');
+  }
+
+  // Whenever the user explicitly chooses light mode
+  localStorage.theme = 'light';
+
+  // Whenever the user explicitly chooses dark mode
+  localStorage.theme = 'dark';
+
+  // Whenever the user explicitly chooses to respect the OS preference
+  localStorage.removeItem('theme');
 
   return (
-    <button onClick={() => setTheme(theme === 'dark' ? 'light' : 'dark')}>
-      {theme === 'dark' ? (
+    <button onClick={toggleTheme}>
+      {theme ? (
         <svg
           class="w-6 h-6 hover:text-white"
           fill="none"

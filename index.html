@@ -6,14 +6,14 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Jinial</title>
   </head>
-  <body>
+  <body className="dark">
     <noscript>You need to enable JavaScript to run this app.</noscript>
     <script>
-        if (localStorage.getItem('sidebar-expanded') == 'true') {
-            document.querySelector('body').classList.add('sidebar-expanded');
-        } else {
-            document.querySelector('body').classList.remove('sidebar-expanded');
-        }
+      if (localStorage.getItem('sidebar-expanded') == 'true') {
+        document.querySelector('body').classList.add('sidebar-expanded');
+      } else {
+        document.querySelector('body').classList.remove('sidebar-expanded');
+      }
     </script>
     <div id="root"></div>
     <script type="module" src="/src/main.jsx"></script>
