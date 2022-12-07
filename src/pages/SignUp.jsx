@@ -227,7 +227,6 @@ function SignUp() {
                             ref={userRef}
                             autoComplete="on"
                             onChange={(e) => setUser(e.target.value)}
-                            required
                             aria-invalid={validName ? 'false' : 'true'}
                             aria-describedby="usernamenote"
                             onFocus={() => setUserFocus(true)}
